@@ -15,7 +15,7 @@ class ShoppingCart {
                     장바구니에 담은 상품목록 입니다.
                     """.trimIndent()
                 ) { product ->
-                    "\n카테고리: ${product.categoryLabel} / 상품명: ${product.name} / 수량: ${products[product]}"
+                    "카테고리: ${product.categoryLabel} / 상품명: ${product.name} / 수량: ${products[product]}"
                 }
             )
         } else {
@@ -26,5 +26,4 @@ class ShoppingCart {
             )
         }
     }
-
 }
