@@ -1,9 +1,9 @@
 import screen.ShoppingHome
 
 /*
-Step 1. main 함수 -> 클래스의 함수
-Step 2. 화면별 클래스 분리
-Step 3. 선택한 카테고리 상품 목록 표시
+Step 1. 장바구니에 추가한 상품 관리
+Step 2. 사용자 입력값 요청 처리 공통화
+Step 3. 프로젝트 전역에서 참조하는 상수
 */
 fun main(args: Array<String>) {
     val shoppingHome = ShoppingHome()
